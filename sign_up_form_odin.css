@@ -1,1 +1,6 @@
 /* Rmember to either normalize or reset the css styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
