@@ -4,3 +4,9 @@
   padding: 0;
 }
 
+.left {
+  background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  width: 35vw;
+  height: 100vh;
+}
