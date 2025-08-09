@@ -17,6 +17,34 @@
 .left {
   background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
+  padding-top: 15vh;
   width: 35vw;
   height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* max-height: 8em + height: auto and width: auto will maintain
+ * the image's aspect ratio.
+**/
+img {
+  max-height: 8em;
+  height: auto;
+  width: auto;
+  margin-right: 0;
+}
+
+.hero {
+  font-family: Norse, sans-serif;
+  color: white;
+  font-size: 8em;
+  margin-left: 0;
 }
