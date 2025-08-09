@@ -83,3 +83,8 @@ img {
   height: 100vh;
 }
 
+.container.right {
+  margin: auto 0;
+  padding: 6em 2em;
+}
+
