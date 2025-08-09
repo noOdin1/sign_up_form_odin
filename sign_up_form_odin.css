@@ -28,6 +28,23 @@ body {
   background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  /**
+   * NOTE:
+   *   The following placement of border is needed if the 'reset' does not
+   *   include "box-sizing: border-box;"
+   *   The 3 lines of code before placing the "border: 1px solid black;" 
+   *   is to make the border draw 'inside' the box. 
+   *   If there's no border around the outer box, in this case '.left' div, then
+   *   whatever margins or padding will start at the next 'border' which is 
+   *   on the '.logo' div. 
+   **/
+  /* The following will place the border inside the box */
+  /*   src: https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge */
+  /* box-sizing: border-box; */
+  /* -moz-box-sizing: border-box; */
+  /* -webkit-box-sizing: border-box; */
+  /* */
+  /* border: 1px solid black; */
 }
 
 .logo {
