@@ -17,6 +17,11 @@
   font-display: swap;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
 .left {
   width: 35vw;
   height: 100vh;
