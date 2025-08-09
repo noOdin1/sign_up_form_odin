@@ -2,6 +2,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* font-size: 16px; */
+  font-family: sans-serif;
 }
 
 @font-face {
@@ -15,19 +18,11 @@
 }
 
 .left {
-  /* The following will place the border inside the box */
-  /*   src: https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge */
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  /* */
   width: 35vw;
   height: 100vh;
   background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* border: 1px solid MediumVioletRed; */
-  border: 1px solid black;
 }
 
 .logo {
