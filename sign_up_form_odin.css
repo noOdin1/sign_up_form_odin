@@ -70,6 +70,8 @@ img {
 .hero {
   font-family: Norse, sans-serif;
   color: white;
-  font-size: 8em;
+  /* font-size: clamp(5em, 10vh, 16em); */
+  /* font-size: min(5em, 20vh); */
+  font-size: max(2em, 15vh);
   margin-left: 0;
 }
