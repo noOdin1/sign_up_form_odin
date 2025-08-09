@@ -88,3 +88,8 @@ img {
   padding: 6em 2em;
 }
 
+p {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 600;
+}
