@@ -126,6 +126,7 @@ section > div > p {
 input {
   height: 2.2em;
   width: 20em;
+  padding: 5px 5px;
   border: 1px solid black;
   border-radius: 4px;
   background-color: #fff;
