@@ -116,6 +116,11 @@ section {
   flex-direction: column;
 }
 
+section > div > p {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
 input {
   height: 2.2em;
   width: 20em;
