@@ -29,36 +29,44 @@
           <p>Let's do this!</p>
           &nbsp; <br />
           <form action="" method="post">
-            <p>Let's do this!</p>
-            <p>
-              <label for="firstName">FIRST NAME</label>
-              <input type="text" id="firstName" name="firstName" required />
-            </p>
-            <p>
-              <label for="lastName">LAST NAME</label>
-              <input type="text" id="lastName" name="lastName" required />
-            </p>
-            <p>
-              <label for="userEmail">EMAIL</label>
-              <input type="email" id="email" name="userEmail" />
-            </p>
-            <p>
-              <label for="phoneNumber">PHONE NUMBER</label>
-              <input type="tel" id="phoneNumber" name="phoneNumber" />
-            </p>
-            <p>
-              <label for="password">PASSWORD</label>
-              <input type="password" id="password" name="password" required />
-            </p>
-            <p>
-              <label for="confirmPassword">CONFIRM PASSWORD</label>
-              <input
-                type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                required
-              />
-            </p>
+              <div class="leftsideForm">
+                <p>
+                  <label for="firstName">FIRST NAME</label>
+                  <input type="text" id="firstName" name="firstName" required />
+                </p>
+                <p>
+                  <label for="userEmail">EMAIL</label>
+                  <input type="email" id="email" name="userEmail" />
+                </p>
+                <p>
+                  <label for="password">PASSWORD</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </p>
+              </div>
+              <div class="form rightsideForm">
+                <p>
+                  <label for="lastName">LAST NAME</label>
+                  <input type="text" id="lastName" name="lastName" required />
+                </p>
+                <p>
+                  <label for="phoneNumber">PHONE NUMBER</label>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" />
+                </p>
+                <p>
+                  <label for="confirmPassword">CONFIRM PASSWORD</label>
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required
+                  />
+                </p>
+              </div>
             <button type="submit" class="submitBtn">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
           </form>
