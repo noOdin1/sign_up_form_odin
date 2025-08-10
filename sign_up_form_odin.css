@@ -98,3 +98,8 @@ p {
 /*   font-size: 0.8em; */
 /* } */
 
+label {
+  font-size: 0.6em;
+  font-weight: none;
+}
+
