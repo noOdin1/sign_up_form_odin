@@ -110,6 +110,14 @@ section {
   /* line-height: 2em; */
 }
 
+input {
+  height: 2.2em;
+  width: 20em;
+  border: 1px solid black;
+  border-radius: 4px;
+  -moz-background-color: #fff;
+}
+
 button {
   height: 2.6em;
   background-color: #596d48;
