@@ -103,3 +103,10 @@ label {
   font-weight: none;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  /* line-height: 2em; */
+}
+
