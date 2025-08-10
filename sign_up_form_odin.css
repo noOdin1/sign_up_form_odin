@@ -101,6 +101,8 @@ p {
 label {
   font-size: 0.6em;
   font-weight: none;
+  display: block;
+  width: 100%;
 }
 
 section {
