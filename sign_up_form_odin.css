@@ -152,6 +152,11 @@ input {
   background-color: #fff;
 }
 
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 3px 3px 5px lightblue;
+}
+
 button {
   height: 2.6em;
   background-color: #596d48;
