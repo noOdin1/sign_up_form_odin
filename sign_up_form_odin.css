@@ -105,6 +105,17 @@ label {
   width: 100%;
 }
 
+hr {
+  display: block;
+  /**
+   * NOTE: 
+   *  The following line will make hr 'bleed' out 
+   *  of it's enclosing container, in this case "container right"
+   *  and <form>.
+  **/
+  margin: 2em -2em 2em -2em;
+}
+
 section {
   display: flex;
   flex-direction: row;
