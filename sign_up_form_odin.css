@@ -110,6 +110,12 @@ section {
   /* line-height: 2em; */
 }
 
+.leftsideForm,
+.rightsideForm {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
   height: 2.2em;
   width: 20em;
