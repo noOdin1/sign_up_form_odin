@@ -159,3 +159,8 @@ form > p:last-child {
   font-size: 1em;
   font-weight: none;
 }
+
+a {
+  text-decoration: none;
+  color: #596d48;
+}
