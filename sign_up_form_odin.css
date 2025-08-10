@@ -78,6 +78,16 @@ img {
 
 .right {
   background-color: #f2f2f2;
+  /*
+* NOTE:
+*   Using linear-gradient was the solution found 
+*   to address the problem of having a different 
+*   color div in the middle. The source for this 
+*   solution:
+*     https://medium.com/@pasutosh/changing-background-color-of-part-of-a-div-81a5fd1528dc
+*     https://stackoverflow.com/questions/17353449/i-want-to-add-a-background-color-only-to-part-of-my-div
+*     https://www.w3schools.com/css/css3_gradients.asp
+**/
   background-image: linear-gradient(
     transparent 28%,
     transparent 1rem,
