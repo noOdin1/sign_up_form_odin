@@ -142,3 +142,9 @@ button {
   border: 1px solid #596d48;
   border-radius: 0.6em;
 }
+
+form > p:last-child {
+  margin: 1.8em 0;
+  font-size: 1em;
+  font-weight: none;
+}
