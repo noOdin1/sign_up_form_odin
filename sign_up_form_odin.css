@@ -157,6 +157,19 @@ input:focus {
   box-shadow: 3px 3px 5px lightblue;
 }
 
+/*
+* NOTE:
+*  The following is the solution to 'input:invalid' problem caused
+*  when you reload the page and the inputs are marked as 'invalid'.
+*  The line below will refresh the page and restore 'input' to 
+*  initial states. 
+*    soln src: https://stackoverflow.com/questions/27021801/inputinvalid-css-rule-is-applied-on-page-load
+**/
+input:user-invalid {
+  border: 1px solid red;
+  box-shadow: 3px 3px 5px lightred;
+}
+
 button {
   height: 2.6em;
   background-color: #596d48;
