@@ -89,12 +89,12 @@ img {
 *     https://www.w3schools.com/css/css3_gradients.asp
 **/
   background-image: linear-gradient(
-    transparent 28%,
+    transparent min(16em, 28%),
     transparent 1rem,
     white 1rem,
-    white 61%,
+    white min(36em, 61%),
     #dadada 1em,
-    #f2f2f2 62%,
+    #f2f2f2 min(36.5em, 62%),
     transparent 0.1em,
     transparent 100%
   );
