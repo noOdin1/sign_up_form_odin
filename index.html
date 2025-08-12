@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign Up Form - Odin</title>
+    <link href="sign_up_form_odin.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="left">
+      <div class="logo">
+        <img src="img/odin-lined.png" alt="Odin logo outline" />
+        <p class="hero">Odin</p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container right">
+        <p>
+          This is not a real online service! You know you need something <br />
+          like this in your life to help you realize your deepest dreams. <br />
+          Sign up <em>now</em> to get started. <br />
+          &nbsp; <br />
+        </p>
+        <p>You <em>know</em> you want to.<br /></p>
+        &nbsp; <br />
+        &nbsp; <br />
+        &nbsp; <br />
+        <div class="middlesection">
+          <form action="" method="post">
+            <p>Let's do this!</p>
+            &nbsp; <br />
+            <section class="text inputs">
+              <div class="leftsideForm">
+                <p>
+                  <label for="firstName">FIRST NAME</label>
+                  <input type="text" id="firstName" name="firstName" required />
+                </p>
+                <p>
+                  <label for="userEmail">EMAIL</label>
+                  <input type="email" id="userEmail" name="userEmail" />
+                </p>
+                <p>
+                  <label for="password">PASSWORD</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </p>
+              </div>
+              <div class="form rightsideForm">
+                <p>
+                  <label for="lastName">LAST NAME</label>
+                  <input type="text" id="lastName" name="lastName" required />
+                </p>
+                <p>
+                  <label for="phoneNumber">PHONE NUMBER</label>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" />
+                </p>
+                <p>
+                  <label for="confirmPassword">CONFIRM PASSWORD</label>
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required
+                  />
+                </p>
+              </div>
+            </section>
+            <button type="submit" class="submitBtn">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="sign_up_form_odin.js"></script>
+</html>
