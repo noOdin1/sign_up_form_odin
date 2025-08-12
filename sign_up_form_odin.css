@@ -151,6 +151,7 @@ input {
   border: 1px solid #e5e7eb;
   border-radius: 4px;
   background-color: #fff;
+  color: #000;
 }
 
 input:focus {
