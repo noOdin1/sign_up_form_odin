@@ -134,6 +134,14 @@ section {
   /* background-color: white; */
 }
 
+.row1.inputs,
+.row2.inputs,
+.row3.inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
 .leftsideForm,
 .rightsideForm {
   display: flex;
