@@ -127,8 +127,9 @@ label {
 
 section {
   display: flex;
-  flex-direction: row;
-  gap: 5em;
+  /* flex-direction: row; */
+  flex-direction: column;
+  gap: 2em;
   margin-bottom: 2em;
   /* background-color: white; */
 }
