@@ -147,7 +147,7 @@ section > div > p {
 input {
   height: 2.2em;
   width: 20em;
-  padding: 5px 5px;
+  padding: 5px 5px; /* This will center the text that the user inputs */
   border: 1px solid #e5e7eb;
   border-radius: 4px;
   background-color: #fff;
